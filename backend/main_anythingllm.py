@@ -51,17 +51,19 @@ You are an XML-to-JSON converter. Parse the following <notification> element and
 - `source_app`: Value from `source_app` attribute.
 - `notification_id`: Value from `id` attribute.
 - `commitment_type`: Classify as "meeting", "events", "party", "deadlines", "reminder","tasks","updates","greeting","education" or "other" based on context from the second <text> element.
-- `reminded`: Always false.
+- `reminded`: Always "false" (as string).
 - `duration`: Extract from second <text> element if mentioned (format: "X hours"/"X minutes"), default "1 hour".
 - `date_present`: Extract any date/time from second <text> element in string format, otherwise "null" (give in string format).
-- `deleted`: Always false. (give in string format)
+- `deleted`: Always "false" (as string).
 
 **Rules:**
 1. Extract values directly from XML attributes and nested <text> elements within <binding>.
 2. For title: Use first <text> content, remove "Details:" prefix if present.
 3. For description: Use second <text> content, preserve "Details:" prefix.
-4. Use "null" (give in string format) for missing optional fields like location and date_present.
+4. Use "null" (as string) for missing optional fields like location and date_present.
 5. Return valid JSON only - no explanations or formatting.
+6. All boolean values must be strings ("true" or "false").
+7. All IDs must be strings.
 
 **Input XML:**
 {xml_string}
@@ -78,11 +80,28 @@ You are an XML-to-JSON converter. Parse the following <notification> element and
             res = requests.post(self.chat_url, headers=self.headers, json=data)
             res.raise_for_status()
             text = res.json().get("textResponse", "")
+            
+            # Extract JSON from the response
             if '```json' in text:
                 text = text.split('```json')[1].split('```')[0]
             elif '```' in text:
                 text = text.split('```')[1].split('```')[0]
-            return json.loads(text)
+            
+            # Clean up the text
+            text = text.strip()
+            
+            # Parse the JSON
+            result = json.loads(text)
+            
+            # Ensure all required fields are strings
+            if isinstance(result.get('id'), int):
+                result['id'] = str(result['id'])
+            if isinstance(result.get('reminded'), bool):
+                result['reminded'] = str(result['reminded']).lower()
+            if isinstance(result.get('deleted'), bool):
+                result['deleted'] = str(result['deleted']).lower()
+            
+            return result
         except Exception as e:
             logger.error(f"LLM error: {e}")
             return {}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "9b1c2d3e-4f5a-4728-8901-b2c3d4e5f6a7",
+    "title": "Education Update",
+    "description": "Details: New Python tutorial series uploaded! Learn advanced data structures in 20 minutes. Perfect for interview prep.",
+    "date_time": "2025-06-09T16:08:42",
+    "location": "null",
+    "source_app": "YouTube",
+    "notification_id": "9b1c2d3e-4f5a-4728-8901-b2c3d4e5f6a7",
+    "commitment_type": "education",
+    "reminded": "false",
+    "duration": "1 hour",
+    "date_present": "2025-06-09T16:08:42",
+    "deleted": "false"
+  }
+]
