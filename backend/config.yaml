@@ -1,0 +1,3 @@
+api_key: "PG27CJY-AKB40WA-GNK796C-6KXNAZP"
+model_server_base_url: "http://localhost:3001/api/v1"
+workspace_slug: "notifsync" 

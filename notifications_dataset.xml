@@ -1,0 +1,2048 @@
+<notifications>
+  <!-- June 9th, 2025 -->
+  <notification id="8011c61b-f105-4bec-850f-bc0a1c9d627d" source_app="Gmail" timestamp="2025-06-09T12:45:03">
+    <toast launch="app://gmail/detail/bd6e037a-c6f6-46f6-b54f-ce35d5fe5178">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event Notification</text>
+          <text>Details: Don't miss the upcoming tech event on June 13th 1.30 pm. Details and registration inside. Attached file: https://example.com/presentation.pptx</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Open" arguments="action=open" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+  <notification id="7f2a9c8d-e4b1-4562-9834-a1b2c3d4e5f6" source_app="WhatsApp" timestamp="2025-06-09T12:45:03">
+    <toast launch="app://whatsapp/chat/group123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting Reminder</text>
+          <text>Details: Project sync meeting in 30 minutes. Conference room B-204. Please bring your weekly reports.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3e5f7a9b-c2d4-4816-9f1e-2a3b4c5d6e7f" source_app="Discord" timestamp="2025-06-09T14:22:15">
+    <toast launch="app://discord/channel/789456123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Party Invitation</text>
+          <text>Details: Game night party this Friday 8 PM! Bring your controllers and snacks. RSVP in #general channel.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9b1c2d3e-4f5a-4728-8901-b2c3d4e5f6a7" source_app="YouTube" timestamp="2025-06-09T16:08:42">
+    <toast launch="app://youtube/video/abc123def456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education Update</text>
+          <text>Details: New Python tutorial series uploaded! Learn advanced data structures in 20 minutes. Perfect for interview prep.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4c5d6e7f-8a9b-4135-a246-c3d4e5f6a7b8" source_app="Outlook" timestamp="2025-06-09T18:30:17">
+    <toast launch="app://outlook/mail/msg789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Deadline Alert</text>
+          <text>Details: Monthly report submission deadline is tomorrow 5 PM. Please review attached template and guidelines.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Open" arguments="action=open" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 10th, 2025 -->
+  <notification id="5d6e7f8a-9b0c-4246-b357-d4e5f6a7b8c9" source_app="Twitch" timestamp="2025-06-10T10:15:30">
+    <toast launch="app://twitch/stream/gamer123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Your favorite streamer is going live with the new racing game! Special giveaway at 1000 viewers.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6e7f8a9b-0c1d-4357-c468-e5f6a7b8c9d0" source_app="WhatsApp" timestamp="2025-06-10T11:45:22">
+    <toast launch="app://whatsapp/chat/mom">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Don't forget to call grandma for her birthday tomorrow. She's been asking about you all week!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Call" arguments="action=call" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7f8a9b0c-1d2e-4468-d579-f6a7b8c9d0e1" source_app="Gmail" timestamp="2025-06-10T13:20:08">
+    <toast launch="app://gmail/detail/newsletter456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Weekly AI newsletter: ChatGPT-5 announcement, new research papers, and upcoming conferences. Read time: 5 mins.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Read" arguments="action=read" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8a9b0c1d-2e3f-4579-e68a-a7b8c9d0e1f2" source_app="Discord" timestamp="2025-06-10T15:33:44">
+    <toast launch="app://discord/channel/study-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting</text>
+          <text>Details: Study group session starts in 1 hour. Topic: Machine Learning algorithms. Bring your notebooks and laptops.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9b0c1d2e-3f4a-468a-f79b-b8c9d0e1f2a3" source_app="YouTube" timestamp="2025-06-10T17:12:55">
+    <toast launch="app://youtube/playlist/workout123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Time for your evening workout! New 30-minute HIIT routine available. Let's crush those fitness goals!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Start" arguments="action=start" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 11th, 2025 -->
+  <notification id="0c1d2e3f-4a5b-479b-a80c-c9d0e1f2a3b4" source_app="Outlook" timestamp="2025-06-11T09:00:00">
+    <toast launch="app://outlook/calendar/meeting789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting</text>
+          <text>Details: All-hands meeting starting now. Agenda: Q2 results, new project announcements, and team updates.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1d2e3f4a-5b6c-480c-b91d-d0e1f2a3b4c5" source_app="WhatsApp" timestamp="2025-06-11T11:25:13">
+    <toast launch="app://whatsapp/chat/best-friend">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Good morning! Hope you're having a great day. Coffee catch-up this weekend? I found a new café downtown.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2e3f4a5b-6c7d-491d-c02e-e1f2a3b4c5d6" source_app="Twitch" timestamp="2025-06-11T14:18:37">
+    <toast launch="app://twitch/event/esports2025">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: Esports championship finals starting soon! Prize pool: $1M. Watch your favorite teams compete live.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3f4a5b6c-7d8e-402e-d13f-f2a3b4c5d6e7" source_app="Gmail" timestamp="2025-06-11T16:42:21">
+    <toast launch="app://gmail/detail/invoice123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Invoice processing needed for 3 vendors. Total amount: $15,420. Please review and approve by end of day.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Review" arguments="action=review" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4a5b6c7d-8e9f-413f-e240-a3b4c5d6e7f8" source_app="Discord" timestamp="2025-06-11T19:55:09">
+    <toast launch="app://discord/voice/general">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Party</text>
+          <text>Details: Movie night in voice channel! We're watching the new sci-fi thriller. Popcorn emojis ready! 🍿</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 12th, 2025 -->
+  <notification id="5b6c7d8e-9f0a-4240-f351-b4c5d6e7f8a9" source_app="YouTube" timestamp="2025-06-12T08:30:15">
+    <toast launch="app://youtube/channel/cooking101">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: New cooking masterclass: Italian pasta from scratch! Chef Marco shares family recipes. Duration: 45 minutes.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Learn" arguments="action=learn" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6c7d8e9f-0a1b-4351-a462-c5d6e7f8a9b0" source_app="Outlook" timestamp="2025-06-12T10:17:28">
+    <toast launch="app://outlook/mail/urgent456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Deadline</text>
+          <text>Details: Client presentation deadline moved to tomorrow 2 PM. Updated requirements attached. Please confirm receipt.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Confirm" arguments="action=confirm" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7d8e9f0a-1b2c-4462-b573-d6e7f8a9b0c1" source_app="WhatsApp" timestamp="2025-06-12T12:45:03">
+    <toast launch="app://whatsapp/chat/family-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: Family BBQ this Sunday 3 PM! Uncle Jim is bringing his famous ribs. Let us know what you can bring.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="RSVP" arguments="action=rsvp" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8e9f0a1b-2c3d-4573-c684-e7f8a9b0c1d2" source_app="Twitch" timestamp="2025-06-12T15:22:41">
+    <toast launch="app://twitch/stream/artist456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Digital art tutorial stream is live! Learn advanced Photoshop techniques and brush settings. Q and A at the end.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9f0a1b2c-3d4e-4684-d795-f8a9b0c1d2e3" source_app="Gmail" timestamp="2025-06-12T17:08:52">
+    <toast launch="app://gmail/detail/conference789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: TechCon 2025 registration confirmed! Your badge and schedule are attached. Conference starts Monday.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Download" arguments="action=download" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 13th, 2025 -->
+  <notification id="0a1b2c3d-4e5f-4795-e806-a9b0c1d2e3f4" source_app="Discord" timestamp="2025-06-13T07:45:18">
+    <toast launch="app://discord/channel/dev-team">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting</text>
+          <text>Details: Daily standup in 15 minutes. Please update your task status in Jira before joining. Sprint review follows.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1b2c3d4e-5f6a-4806-f917-b0c1d2e3f4a5" source_app="YouTube" timestamp="2025-06-13T11:33:27">
+    <toast launch="app://youtube/video/mindfulness123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Time for your midday mindfulness break! 10-minute guided meditation to reduce stress and improve focus.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Start" arguments="action=start" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2c3d4e5f-6a7b-4917-a028-c1d2e3f4a5b6" source_app="WhatsApp" timestamp="2025-06-13T13:30:00">
+    <toast launch="app://whatsapp/chat/work-buddy">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: Tech event starting now! The presentation you mentioned yesterday. Room 204, Building A. Are you coming?</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3d4e5f6a-7b8c-4028-b139-d2e3f4a5b6c7" source_app="Outlook" timestamp="2025-06-13T15:15:44">
+    <toast launch="app://outlook/calendar/reminder789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Code review scheduled for 4 PM. Please check the pull requests from team members. Priority: high.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Review" arguments="action=review" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4e5f6a7b-8c9d-4139-c24a-e3f4a5b6c7d8" source_app="Twitch" timestamp="2025-06-13T18:47:13">
+    <toast launch="app://twitch/stream/musician789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Live music performance starting! Acoustic covers of popular songs. Send your requests in the chat.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Listen" arguments="action=listen" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 14th, 2025 -->
+  <notification id="5f6a7b8c-9d0e-424a-d35b-f4a5b6c7d8e9" source_app="Gmail" timestamp="2025-06-14T09:12:36">
+    <toast launch="app://gmail/detail/weekend-plans">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Weekend plans update from Sarah! Beach trip confirmed for Sunday. Departure 8 AM, return by evening.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6a7b8c9d-0e1f-435b-e46c-a5b6c7d8e9f0" source_app="Discord" timestamp="2025-06-14T10:55:19">
+    <toast launch="app://discord/channel/book-club">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Book club discussion tonight 7 PM! This month: "The Design of Everyday Things". Chapter 4-6 analysis.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7b8c9d0e-1f2a-446c-f57d-b6c7d8e9f0a1" source_app="YouTube" timestamp="2025-06-14T12:38:45">
+    <toast launch="app://youtube/channel/language-learning">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: New Spanish lesson available! Topic: Business conversations and formal expressions. Includes practice exercises.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Learn" arguments="action=learn" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8c9d0e1f-2a3b-457d-a68e-c7d8e9f0a1b2" source_app="WhatsApp" timestamp="2025-06-14T14:21:07">
+    <toast launch="app://whatsapp/chat/gym-buddy">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Gym session at 6 PM today! Leg day workout planned. Don't forget your water bottle and towel.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Confirm" arguments="action=confirm" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9d0e1f2a-3b4c-468e-b79f-d8e9f0a1b2c3" source_app="Outlook" timestamp="2025-06-14T16:44:22">
+    <toast launch="app://outlook/mail/budget-report">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Monthly budget report needs final approval. All departments submitted their data. Review deadline: Monday.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Review" arguments="action=review" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="0e1f2a3b-4c5d-479f-c80a-e9f0a1b2c3d4" source_app="Twitch" timestamp="2025-06-14T20:15:58">
+    <toast launch="app://twitch/stream/speedrun456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: World record speedrun attempt happening now! Classic platformer game. Current best time: 23:47.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Cheer" arguments="action=cheer" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 15th, 2025 -->
+  <notification id="1f2a3b4c-5d6e-480a-d91b-f0a1b2c3d4e5" source_app="Gmail" timestamp="2025-06-15T08:00:00">
+    <toast launch="app://gmail/detail/sunday-newsletter">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Sunday Science Weekly: Latest discoveries in quantum computing and space exploration. Featured: Mars mission updates.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Read" arguments="action=read" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2a3b4c5d-6e7f-491b-e02c-a1b2c3d4e5f6" source_app="WhatsApp" timestamp="2025-06-15T10:30:14">
+    <toast launch="app://whatsapp/chat/travel-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: Beach trip departure in 30 minutes! Meeting point: main parking lot. Weather looks perfect for swimming!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Navigate" arguments="action=navigate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3b4c5d6e-7f8a-402c-f13d-b2c3d4e5f6a7" source_app="Discord" timestamp="2025-06-15T12:17:33">
+    <toast launch="app://discord/channel/gaming">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Party</text>
+          <text>Details: Sunday gaming marathon begins! Multiple games tournament with prizes. Current lineup: racing, strategy, puzzle.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Participate" arguments="action=participate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4c5d6e7f-8a9b-413d-a24e-c3d4e5f6a7b8" source_app="YouTube" timestamp="2025-06-15T14:45:26">
+    <toast launch="app://youtube/video/sunday-relaxation">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Sunday self-care time! Relaxing yoga flow and meditation session. Perfect for weekend wind-down. Duration: 30 mins.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Begin" arguments="action=begin" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="5d6e7f8a-9b0c-424e-b35f-d4e5f6a7b8c9" source_app="Outlook" timestamp="2025-06-15T16:23:11">
+    <toast launch="app://outlook/calendar/week-prep">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Weekly planning reminder. Review next week's calendar, prepare for Monday meetings, and organize task priorities.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Plan" arguments="action=plan" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6e7f8a9b-0c1d-435f-c460-e5f6a7b8c9d0" source_app="Twitch" timestamp="2025-06-15T18:52:47">
+    <toast launch="app://twitch/stream/cooking-show">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Sunday cooking stream live! Making traditional Italian risotto from family recipe. Interactive cooking session.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Cook Along" arguments="action=cookalong" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- Additional notifications to reach 60 total -->
+  <notification id="7f8a9b0c-1d2e-4460-d571-f6a7b8c9d0e1" source_app="Gmail" timestamp="2025-06-09T20:15:30">
+    <toast launch="app://gmail/detail/security-alert">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Security update completed successfully. Your account protection has been enhanced with 2FA backup codes.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="View" arguments="action=view" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8a9b0c1d-2e3f-4571-e682-a7b8c9d0e1f2" source_app="WhatsApp" timestamp="2025-06-10T21:30:45">
+    <toast launch="app://whatsapp/chat/neighbor">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Hi there! Thanks for watering my plants while I was away. How about dinner this week as a thank you?</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9b0c1d2e-3f4a-4682-f793-b8c9d0e1f2a3" source_app="Discord" timestamp="2025-06-11T22:18:12">
+    <toast launch="app://discord/channel/night-owls">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Late night coding session starting! Working on open source project. Coffee and code collaboration welcome.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Code" arguments="action=code" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="0c1d2e3f-4a5b-4793-a804-c9d0e1f2a3b4" source_app="YouTube" timestamp="2025-06-12T23:45:18">
+    <toast launch="app://youtube/video/late-night-learning">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Night owl study session: Advanced JavaScript concepts. Async/await, promises, and event loop explained clearly.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Study" arguments="action=study" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1d2e3f4a-5b6c-4804-b915-d0e1f2a3b4c5" source_app="Outlook" timestamp="2025-06-09T07:30:00">
+    <toast launch="app://outlook/mail/morning-briefing">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Monday morning briefing: Market trends, competitor analysis, and week's key objectives. Revenue up 15% this quarter.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Review" arguments="action=review" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2e3f4a5b-6c7d-4915-c026-e1f2a3b4c5d6" source_app="Twitch" timestamp="2025-06-10T19:20:33">
+    <toast launch="app://twitch/event/charity-stream">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: 24-hour charity stream for children's hospital! Goal: $50,000. Special guest appearances and exclusive content.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Donate" arguments="action=donate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3f4a5b6c-7d8e-4026-d137-f2a3b4c5d6e7" source_app="Gmail" timestamp="2025-06-11T06:45:22">
+    <toast launch="app://gmail/detail/weather-alert">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Weather alert for your area: Thunderstorm expected 2-4 PM. Plan indoor activities and avoid outdoor meetings.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Plan" arguments="action=plan" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4a5b6c7d-8e9f-4137-e248-a3b4c5d6e7f8" source_app="WhatsApp" timestamp="2025-06-12T05:30:15">
+    <toast launch="app://whatsapp/chat/early-bird">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Good morning! Early workout session today? The gym is less crowded at 6 AM. Let's start the day strong!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="5b6c7d8e-9f0a-4248-f359-b4c5d6e7f8a9" source_app="Discord" timestamp="2025-06-13T03:22:44">
+    <toast launch="app://discord/channel/insomniacs">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Midnight productivity club is active! Working on side projects, sharing progress, and motivating each other.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Share" arguments="action=share" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6c7d8e9f-0a1b-4359-a46a-c5d6e7f8a9b0" source_app="YouTube" timestamp="2025-06-14T04:15:37">
+    <toast launch="app://youtube/video/sunrise-meditation">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Sunrise meditation session available now! Start your day with mindfulness and positive energy. 15-minute guided practice.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Meditate" arguments="action=meditate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7d8e9f0a-1b2c-446a-b57b-d6e7f8a9b0c1" source_app="Outlook" timestamp="2025-06-15T05:00:00">
+    <toast launch="app://outlook/mail/weekly-summary">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Weekly productivity summary: 47 tasks completed, 3 meetings attended, 2 deadlines met. Great progress this week!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Analyze" arguments="action=analyze" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8e9f0a1b-2c3d-457b-c68c-e7f8a9b0c1d2" source_app="Twitch" timestamp="2025-06-09T15:33:21">
+    <toast launch="app://twitch/stream/tech-talk">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Live tech talk: Future of AI in software development. Industry experts discussing trends and career advice.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Learn" arguments="action=learn" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9f0a1b2c-3d4e-468c-d79d-f8a9b0c1d2e3" source_app="Gmail" timestamp="2025-06-10T13:47:55">
+    <toast launch="app://gmail/detail/collaboration-invite">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting</text>
+          <text>Details: Collaboration invitation from startup accelerator. Pitch your idea to potential investors next Friday 10 AM.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Accept" arguments="action=accept" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="0a1b2c3d-4e5f-479d-e80e-a9b0c1d2e3f4" source_app="WhatsApp" timestamp="2025-06-11T16:25:18">
+    <toast launch="app://whatsapp/chat/hobby-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Party</text>
+          <text>Details: Photography walk this Saturday! Golden hour shots at the botanical garden. Bring your camera and creativity.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1b2c3d4e-5f6a-480e-f91f-b0c1d2e3f4a5" source_app="Discord" timestamp="2025-06-12T20:11:42">
+    <toast launch="app://discord/channel/mentorship">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Mentorship session available! Senior developer offering code review and career guidance. Open Q and A format.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Ask" arguments="action=ask" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2c3d4e5f-6a7b-491f-a020-c1d2e3f4a5b6" source_app="YouTube" timestamp="2025-06-13T21:38:29">
+    <toast launch="app://youtube/channel/finance-tips">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Personal finance workshop: Investment strategies for beginners. Topics: stocks, bonds, retirement planning. Duration: 1 hour.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Invest Time" arguments="action=invest" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3d4e5f6a-7b8c-4020-b131-d2e3f4a5b6c7" source_app="Outlook" timestamp="2025-06-14T22:15:06">
+    <toast launch="app://outlook/calendar/tomorrow-prep">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Tomorrow's schedule: 3 meetings, 1 presentation, 2 deadlines. Prepare materials tonight for smooth execution.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Prepare" arguments="action=prepare" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4e5f6a7b-8c9d-4131-c242-e3f4a5b6c7d8" source_app="Twitch" timestamp="2025-06-15T23:45:33">
+    <toast launch="app://twitch/stream/late-night-gaming">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Late night gaming session! Retro arcade games tournament. Prizes for high scores and creative gameplay.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Play" arguments="action=play" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="5f6a7b8c-9d0e-4242-d353-f4a5b6c7d8e9" source_app="Gmail" timestamp="2025-06-09T11:20:17">
+    <toast launch="app://gmail/detail/recipe-share">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Recipe exchange from cooking club! This week's featured dish: Mediterranean quinoa salad. Ingredients list attached.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Cook" arguments="action=cook" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6a7b8c9d-0e1f-4353-e464-a5b6c7d8e9f0" source_app="WhatsApp" timestamp="2025-06-10T12:44:28">
+    <toast launch="app://whatsapp/chat/study-partner">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Deadline</text>
+          <text>Details: Assignment due tomorrow! Final review session at library 6 PM. Bring your notes and questions for group study.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Study" arguments="action=study" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7b8c9d0e-1f2a-4464-f575-b6c7d8e9f0a1" source_app="Discord" timestamp="2025-06-11T14:18:51">
+    <toast launch="app://discord/channel/creative-writing">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Writing workshop starting! Today's focus: character development and dialogue. Share your drafts for feedback.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Write" arguments="action=write" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8c9d0e1f-2a3b-4575-a686-c7d8e9f0a1b2" source_app="YouTube" timestamp="2025-06-12T16:55:14">
+    <toast launch="app://youtube/video/home-improvement">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: DIY home improvement guide: Installing smart home devices. Step-by-step tutorial with safety tips included.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Learn DIY" arguments="action=learndiy" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9d0e1f2a-3b4c-4686-b797-d8e9f0a1b2c3" source_app="Outlook" timestamp="2025-06-13T17:32:40">
+    <toast launch="app://outlook/mail/performance-review">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Quarterly performance review completed. Overall rating: Exceeds expectations. Promotion discussion scheduled for next week.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Celebrate" arguments="action=celebrate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="0e1f2a3b-4c5d-4797-c808-e9f0a1b2c3d4" source_app="Twitch" timestamp="2025-06-14T19:08:27">
+    <toast launch="app://twitch/stream/language-exchange">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Language exchange stream! Practice Spanish, French, and Japanese with native speakers. Interactive conversation practice.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Practice" arguments="action=practice" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1f2a3b4c-5d6e-4808-d919-f0a1b2c3d4e5" source_app="Gmail" timestamp="2025-06-15T21:22:13">
+    <toast launch="app://gmail/detail/week-reflection">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Weekly reflection time! Journal about achievements, challenges, and goals for next week. Self-care Sunday tradition.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reflect" arguments="action=reflect" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 9th, 2025 -->
+  <notification id="8011c61b-f105-4bec-850f-bc0a1c9d627d" source_app="Gmail" timestamp="2025-06-09T12:45:03">
+    <toast launch="app://gmail/detail/bd6e037a-c6f6-46f6-b54f-ce35d5fe5178">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event Notification</text>
+          <text>Details: Don't miss the upcoming tech event on June 13th 1.30 pm. Details and registration inside. Attached file: https://example.com/presentation.pptx</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Open" arguments="action=open" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7f2a9c8d-e4b1-4562-9834-a1b2c3d4e5f6" source_app="WhatsApp" timestamp="2025-06-09T12:45:03">
+    <toast launch="app://whatsapp/chat/group123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting Reminder</text>
+          <text>Details: Project sync meeting in 30 minutes. Conference room B-204. Please bring your weekly reports.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3e5f7a9b-c2d4-4816-9f1e-2a3b4c5d6e7f" source_app="Discord" timestamp="2025-06-09T14:22:15">
+    <toast launch="app://discord/channel/789456123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Party Invitation</text>
+          <text>Details: Game night party this Friday 8 PM! Bring your controllers and snacks. RSVP in #general channel.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9b1c2d3e-4f5a-4728-8901-b2c3d4e5f6a7" source_app="YouTube" timestamp="2025-06-09T16:08:42">
+    <toast launch="app://youtube/video/abc123def456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education Update</text>
+          <text>Details: New Python tutorial series uploaded! Learn advanced data structures in 20 minutes. Perfect for interview prep.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4c5d6e7f-8a9b-4135-a246-c3d4e5f6a7b8" source_app="Outlook" timestamp="2025-06-09T18:30:17">
+    <toast launch="app://outlook/mail/msg789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Deadline Alert</text>
+          <text>Details: Monthly report submission deadline is tomorrow 5 PM. Please review attached template and guidelines.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Open" arguments="action=open" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 10th, 2025 -->
+  <notification id="5d6e7f8a-9b0c-4246-b357-d4e5f6a7b8c9" source_app="Twitch" timestamp="2025-06-10T10:15:30">
+    <toast launch="app://twitch/stream/gamer123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Your favorite streamer is going live with the new racing game! Special giveaway at 1000 viewers.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6e7f8a9b-0c1d-4357-c468-e5f6a7b8c9d0" source_app="WhatsApp" timestamp="2025-06-10T11:45:22">
+    <toast launch="app://whatsapp/chat/mom">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Don't forget to call grandma for her birthday tomorrow. She's been asking about you all week!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Call" arguments="action=call" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7f8a9b0c-1d2e-4468-d579-f6a7b8c9d0e1" source_app="Gmail" timestamp="2025-06-10T13:20:08">
+    <toast launch="app://gmail/detail/newsletter456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Weekly AI newsletter: ChatGPT-5 announcement, new research papers, and upcoming conferences. Read time: 5 mins.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Read" arguments="action=read" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8a9b0c1d-2e3f-4579-e68a-a7b8c9d0e1f2" source_app="Discord" timestamp="2025-06-10T15:33:44">
+    <toast launch="app://discord/channel/study-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting</text>
+          <text>Details: Study group session starts in 1 hour. Topic: Machine Learning algorithms. Bring your notebooks and laptops.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9b0c1d2e-3f4a-468a-f79b-b8c9d0e1f2a3" source_app="YouTube" timestamp="2025-06-10T17:12:55">
+    <toast launch="app://youtube/playlist/workout123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Time for your evening workout! New 30-minute HIIT routine available. Let's crush those fitness goals!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Start" arguments="action=start" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 11th, 2025 -->
+  <notification id="0c1d2e3f-4a5b-479b-a80c-c9d0e1f2a3b4" source_app="Outlook" timestamp="2025-06-11T09:00:00">
+    <toast launch="app://outlook/calendar/meeting789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting</text>
+          <text>Details: All-hands meeting starting now. Agenda: Q2 results, new project announcements, and team updates.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1d2e3f4a-5b6c-480c-b91d-d0e1f2a3b4c5" source_app="WhatsApp" timestamp="2025-06-11T11:25:13">
+    <toast launch="app://whatsapp/chat/best-friend">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Good morning! Hope you're having a great day. Coffee catch-up this weekend? I found a new café downtown.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2e3f4a5b-6c7d-491d-c02e-e1f2a3b4c5d6" source_app="Twitch" timestamp="2025-06-11T14:18:37">
+    <toast launch="app://twitch/event/esports2025">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: Esports championship finals starting soon! Prize pool: $1M. Watch your favorite teams compete live.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3f4a5b6c-7d8e-402e-d13f-f2a3b4c5d6e7" source_app="Gmail" timestamp="2025-06-11T16:42:21">
+    <toast launch="app://gmail/detail/invoice123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Invoice processing needed for 3 vendors. Total amount: $15,420. Please review and approve by end of day.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Review" arguments="action=review" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4a5b6c7d-8e9f-413f-e240-a3b4c5d6e7f8" source_app="Discord" timestamp="2025-06-11T19:55:09">
+    <toast launch="app://discord/voice/general">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Party</text>
+          <text>Details: Movie night in voice channel! We're watching the new sci-fi thriller. Popcorn emojis ready! 🍿</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 12th, 2025 -->
+  <notification id="5b6c7d8e-9f0a-4240-f351-b4c5d6e7f8a9" source_app="YouTube" timestamp="2025-06-12T08:30:15">
+    <toast launch="app://youtube/channel/cooking101">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: New cooking masterclass: Italian pasta from scratch! Chef Marco shares family recipes. Duration: 45 minutes.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Learn" arguments="action=learn" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6c7d8e9f-0a1b-4351-a462-c5d6e7f8a9b0" source_app="Outlook" timestamp="2025-06-12T10:17:28">
+    <toast launch="app://outlook/mail/urgent456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Deadline</text>
+          <text>Details: Client presentation deadline moved to tomorrow 2 PM. Updated requirements attached. Please confirm receipt.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Confirm" arguments="action=confirm" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7d8e9f0a-1b2c-4462-b573-d6e7f8a9b0c1" source_app="WhatsApp" timestamp="2025-06-12T12:45:03">
+    <toast launch="app://whatsapp/chat/family-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: Family BBQ this Sunday 3 PM! Uncle Jim is bringing his famous ribs. Let us know what you can bring.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="RSVP" arguments="action=rsvp" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8e9f0a1b-2c3d-4573-c684-e7f8a9b0c1d2" source_app="Twitch" timestamp="2025-06-12T15:22:41">
+    <toast launch="app://twitch/stream/artist456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Digital art tutorial stream is live! Learn advanced Photoshop techniques and brush settings. Q and A at the end.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9f0a1b2c-3d4e-4684-d795-f8a9b0c1d2e3" source_app="Gmail" timestamp="2025-06-12T17:08:52">
+    <toast launch="app://gmail/detail/conference789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: TechCon 2025 registration confirmed! Your badge and schedule are attached. Conference starts Monday.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Download" arguments="action=download" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 13th, 2025 -->
+  <notification id="0a1b2c3d-4e5f-4795-e806-a9b0c1d2e3f4" source_app="Discord" timestamp="2025-06-13T07:45:18">
+    <toast launch="app://discord/channel/dev-team">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting</text>
+          <text>Details: Daily standup in 15 minutes. Please update your task status in Jira before joining. Sprint review follows.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1b2c3d4e-5f6a-4806-f917-b0c1d2e3f4a5" source_app="YouTube" timestamp="2025-06-13T11:33:27">
+    <toast launch="app://youtube/video/mindfulness123">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Time for your midday mindfulness break! 10-minute guided meditation to reduce stress and improve focus.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Start" arguments="action=start" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2c3d4e5f-6a7b-4917-a028-c1d2e3f4a5b6" source_app="WhatsApp" timestamp="2025-06-13T13:30:00">
+    <toast launch="app://whatsapp/chat/work-buddy">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: Tech event starting now! The presentation you mentioned yesterday. Room 204, Building A. Are you coming?</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3d4e5f6a-7b8c-4028-b139-d2e3f4a5b6c7" source_app="Outlook" timestamp="2025-06-13T15:15:44">
+    <toast launch="app://outlook/calendar/reminder789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Code review scheduled for 4 PM. Please check the pull requests from team members. Priority: high.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Review" arguments="action=review" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4e5f6a7b-8c9d-4139-c24a-e3f4a5b6c7d8" source_app="Twitch" timestamp="2025-06-13T18:47:13">
+    <toast launch="app://twitch/stream/musician789">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Live music performance starting! Acoustic covers of popular songs. Send your requests in the chat.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Listen" arguments="action=listen" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 14th, 2025 -->
+  <notification id="5f6a7b8c-9d0e-424a-d35b-f4a5b6c7d8e9" source_app="Gmail" timestamp="2025-06-14T09:12:36">
+    <toast launch="app://gmail/detail/weekend-plans">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Weekend plans update from Sarah! Beach trip confirmed for Sunday. Departure 8 AM, return by evening.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6a7b8c9d-0e1f-435b-e46c-a5b6c7d8e9f0" source_app="Discord" timestamp="2025-06-14T10:55:19">
+    <toast launch="app://discord/channel/book-club">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Book club discussion tonight 7 PM! This month: "The Design of Everyday Things". Chapter 4-6 analysis.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7b8c9d0e-1f2a-446c-f57d-b6c7d8e9f0a1" source_app="YouTube" timestamp="2025-06-14T12:38:45">
+    <toast launch="app://youtube/channel/language-learning">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: New Spanish lesson available! Topic: Business conversations and formal expressions. Includes practice exercises.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Learn" arguments="action=learn" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8c9d0e1f-2a3b-457d-a68e-c7d8e9f0a1b2" source_app="WhatsApp" timestamp="2025-06-14T14:21:07">
+    <toast launch="app://whatsapp/chat/gym-buddy">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Gym session at 6 PM today! Leg day workout planned. Don't forget your water bottle and towel.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Confirm" arguments="action=confirm" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9d0e1f2a-3b4c-468e-b79f-d8e9f0a1b2c3" source_app="Outlook" timestamp="2025-06-14T16:44:22">
+    <toast launch="app://outlook/mail/budget-report">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Monthly budget report needs final approval. All departments submitted their data. Review deadline: Monday.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Review" arguments="action=review" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="0e1f2a3b-4c5d-479f-c80a-e9f0a1b2c3d4" source_app="Twitch" timestamp="2025-06-14T20:15:58">
+    <toast launch="app://twitch/stream/speedrun456">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: World record speedrun attempt happening now! Classic platformer game. Current best time: 23:47.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Cheer" arguments="action=cheer" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 15th, 2025 -->
+  <notification id="1f2a3b4c-5d6e-480a-d91b-f0a1b2c3d4e5" source_app="Gmail" timestamp="2025-06-15T08:00:00">
+    <toast launch="app://gmail/detail/sunday-newsletter">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Sunday Science Weekly: Latest discoveries in quantum computing and space exploration. Featured: Mars mission updates.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Read" arguments="action=read" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2a3b4c5d-6e7f-491b-e02c-a1b2c3d4e5f6" source_app="WhatsApp" timestamp="2025-06-15T10:30:14">
+    <toast launch="app://whatsapp/chat/travel-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: Beach trip departure in 30 minutes! Meeting point: main parking lot. Weather looks perfect for swimming!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Navigate" arguments="action=navigate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3b4c5d6e-7f8a-402c-f13d-b2c3d4e5f6a7" source_app="Discord" timestamp="2025-06-15T12:17:33">
+    <toast launch="app://discord/channel/gaming">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Party</text>
+          <text>Details: Sunday gaming marathon begins! Multiple games tournament with prizes. Current lineup: racing, strategy, puzzle.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Participate" arguments="action=participate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4c5d6e7f-8a9b-413d-a24e-c3d4e5f6a7b8" source_app="YouTube" timestamp="2025-06-15T14:45:26">
+    <toast launch="app://youtube/video/sunday-relaxation">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Sunday self-care time! Relaxing yoga flow and meditation session. Perfect for weekend wind-down. Duration: 30 mins.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Begin" arguments="action=begin" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="5d6e7f8a-9b0c-424e-b35f-d4e5f6a7b8c9" source_app="Outlook" timestamp="2025-06-15T16:23:11">
+    <toast launch="app://outlook/calendar/week-prep">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Weekly planning reminder. Review next week's calendar, prepare for Monday meetings, and organize task priorities.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Plan" arguments="action=plan" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6e7f8a9b-0c1d-435f-c460-e5f6a7b8c9d0" source_app="Twitch" timestamp="2025-06-15T18:52:47">
+    <toast launch="app://twitch/stream/cooking-show">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Sunday cooking stream live! Making traditional Italian risotto from family recipe. Interactive cooking session.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Cook Along" arguments="action=cookalong" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- Additional notifications to reach 60 total -->
+  <notification id="7f8a9b0c-1d2e-4460-d571-f6a7b8c9d0e1" source_app="Gmail" timestamp="2025-06-09T20:15:30">
+    <toast launch="app://gmail/detail/security-alert">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Security update completed successfully. Your account protection has been enhanced with 2FA backup codes.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="View" arguments="action=view" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8a9b0c1d-2e3f-4571-e682-a7b8c9d0e1f2" source_app="WhatsApp" timestamp="2025-06-10T21:30:45">
+    <toast launch="app://whatsapp/chat/neighbor">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Hi there! Thanks for watering my plants while I was away. How about dinner this week as a thank you?</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9b0c1d2e-3f4a-4682-f793-b8c9d0e1f2a3" source_app="Discord" timestamp="2025-06-11T22:18:12">
+    <toast launch="app://discord/channel/night-owls">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Late night coding session starting! Working on open source project. Coffee and code collaboration welcome.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Code" arguments="action=code" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="0c1d2e3f-4a5b-4793-a804-c9d0e1f2a3b4" source_app="YouTube" timestamp="2025-06-12T23:45:18">
+    <toast launch="app://youtube/video/late-night-learning">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Night owl study session: Advanced JavaScript concepts. Async/await, promises, and event loop explained clearly.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Study" arguments="action=study" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1d2e3f4a-5b6c-4804-b915-d0e1f2a3b4c5" source_app="Outlook" timestamp="2025-06-09T07:30:00">
+    <toast launch="app://outlook/mail/morning-briefing">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Monday morning briefing: Market trends, competitor analysis, and week's key objectives. Revenue up 15% this quarter.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Review" arguments="action=review" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2e3f4a5b-6c7d-4915-c026-e1f2a3b4c5d6" source_app="Twitch" timestamp="2025-06-10T19:20:33">
+    <toast launch="app://twitch/event/charity-stream">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event</text>
+          <text>Details: 24-hour charity stream for children's hospital! Goal: $50,000. Special guest appearances and exclusive content.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Donate" arguments="action=donate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3f4a5b6c-7d8e-4026-d137-f2a3b4c5d6e7" source_app="Gmail" timestamp="2025-06-11T06:45:22">
+    <toast launch="app://gmail/detail/weather-alert">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Weather alert for your area: Thunderstorm expected 2-4 PM. Plan indoor activities and avoid outdoor meetings.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Plan" arguments="action=plan" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4a5b6c7d-8e9f-4137-e248-a3b4c5d6e7f8" source_app="WhatsApp" timestamp="2025-06-12T05:30:15">
+    <toast launch="app://whatsapp/chat/early-bird">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Good morning! Early workout session today? The gym is less crowded at 6 AM. Let's start the day strong!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="5b6c7d8e-9f0a-4248-f359-b4c5d6e7f8a9" source_app="Discord" timestamp="2025-06-13T03:22:44">
+    <toast launch="app://discord/channel/insomniacs">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Midnight productivity club is active! Working on side projects, sharing progress, and motivating each other.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Share" arguments="action=share" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6c7d8e9f-0a1b-4359-a46a-c5d6e7f8a9b0" source_app="YouTube" timestamp="2025-06-14T04:15:37">
+    <toast launch="app://youtube/video/sunrise-meditation">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Sunrise meditation session available now! Start your day with mindfulness and positive energy. 15-minute guided practice.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Meditate" arguments="action=meditate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7d8e9f0a-1b2c-446a-b57b-d6e7f8a9b0c1" source_app="Outlook" timestamp="2025-06-15T05:00:00">
+    <toast launch="app://outlook/mail/weekly-summary">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Weekly productivity summary: 47 tasks completed, 3 meetings attended, 2 deadlines met. Great progress this week!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Analyze" arguments="action=analyze" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8e9f0a1b-2c3d-457b-c68c-e7f8a9b0c1d2" source_app="Twitch" timestamp="2025-06-09T15:33:21">
+    <toast launch="app://twitch/stream/tech-talk">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Live tech talk: Future of AI in software development. Industry experts discussing trends and career advice.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Learn" arguments="action=learn" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9f0a1b2c-3d4e-468c-d79d-f8a9b0c1d2e3" source_app="Gmail" timestamp="2025-06-10T13:47:55">
+    <toast launch="app://gmail/detail/collaboration-invite">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting</text>
+          <text>Details: Collaboration invitation from startup accelerator. Pitch your idea to potential investors next Friday 10 AM.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Accept" arguments="action=accept" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="0a1b2c3d-4e5f-479d-e80e-a9b0c1d2e3f4" source_app="WhatsApp" timestamp="2025-06-11T16:25:18">
+    <toast launch="app://whatsapp/chat/hobby-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Party</text>
+          <text>Details: Photography walk this Saturday! Golden hour shots at the botanical garden. Bring your camera and creativity.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1b2c3d4e-5f6a-480e-f91f-b0c1d2e3f4a5" source_app="Discord" timestamp="2025-06-12T20:11:42">
+    <toast launch="app://discord/channel/mentorship">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Mentorship session available! Senior developer offering code review and career guidance. Open Q and A format.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Ask" arguments="action=ask" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2c3d4e5f-6a7b-491f-a020-c1d2e3f4a5b6" source_app="YouTube" timestamp="2025-06-13T21:38:29">
+    <toast launch="app://youtube/channel/finance-tips">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Personal finance workshop: Investment strategies for beginners. Topics: stocks, bonds, retirement planning. Duration: 1 hour.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Invest Time" arguments="action=invest" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3d4e5f6a-7b8c-4020-b131-d2e3f4a5b6c7" source_app="Outlook" timestamp="2025-06-14T22:15:06">
+    <toast launch="app://outlook/calendar/tomorrow-prep">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Tomorrow's schedule: 3 meetings, 1 presentation, 2 deadlines. Prepare materials tonight for smooth execution.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Prepare" arguments="action=prepare" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="4e5f6a7b-8c9d-4131-c242-e3f4a5b6c7d8" source_app="Twitch" timestamp="2025-06-15T23:45:33">
+    <toast launch="app://twitch/stream/late-night-gaming">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Updates</text>
+          <text>Details: Late night gaming session! Retro arcade games tournament. Prizes for high scores and creative gameplay.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Play" arguments="action=play" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="5f6a7b8c-9d0e-4242-d353-f4a5b6c7d8e9" source_app="Gmail" timestamp="2025-06-09T11:20:17">
+    <toast launch="app://gmail/detail/recipe-share">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Greeting</text>
+          <text>Details: Recipe exchange from cooking club! This week's featured dish: Mediterranean quinoa salad. Ingredients list attached.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Cook" arguments="action=cook" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6a7b8c9d-0e1f-4353-e464-a5b6c7d8e9f0" source_app="WhatsApp" timestamp="2025-06-10T12:44:28">
+    <toast launch="app://whatsapp/chat/study-partner">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Deadline</text>
+          <text>Details: Assignment due tomorrow! Final review session at library 6 PM. Bring your notes and questions for group study.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Study" arguments="action=study" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7b8c9d0e-1f2a-4464-f575-b6c7d8e9f0a1" source_app="Discord" timestamp="2025-06-11T14:18:51">
+    <toast launch="app://discord/channel/creative-writing">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Writing workshop starting! Today's focus: character development and dialogue. Share your drafts for feedback.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Write" arguments="action=write" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8c9d0e1f-2a3b-4575-a686-c7d8e9f0a1b2" source_app="YouTube" timestamp="2025-06-12T16:55:14">
+    <toast launch="app://youtube/video/home-improvement">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: DIY home improvement guide: Installing smart home devices. Step-by-step tutorial with safety tips included.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Learn DIY" arguments="action=learndiy" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9d0e1f2a-3b4c-4686-b797-d8e9f0a1b2c3" source_app="Outlook" timestamp="2025-06-13T17:32:40">
+    <toast launch="app://outlook/mail/performance-review">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Tasks</text>
+          <text>Details: Quarterly performance review completed. Overall rating: Exceeds expectations. Promotion discussion scheduled for next week.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Celebrate" arguments="action=celebrate" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="0e1f2a3b-4c5d-4797-c808-e9f0a1b2c3d4" source_app="Twitch" timestamp="2025-06-14T19:08:27">
+    <toast launch="app://twitch/stream/language-exchange">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Education</text>
+          <text>Details: Language exchange stream! Practice Spanish, French, and Japanese with native speakers. Interactive conversation practice.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Practice" arguments="action=practice" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="1f2a3b4c-5d6e-4808-d919-f0a1b2c3d4e5" source_app="Gmail" timestamp="2025-06-15T21:22:13">
+    <toast launch="app://gmail/detail/week-reflection">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reminder</text>
+          <text>Details: Weekly reflection time! Journal about achievements, challenges, and goals for next week. Self-care Sunday tradition.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reflect" arguments="action=reflect" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 9th, 2025 -->
+  <notification id="8011c61b-f105-4bec-850f-bc0a1c9d627d" source_app="Gmail" timestamp="2025-06-09T12:45:03">
+    <toast launch="app://gmail/detail/bd6e037a-c6f6-46f6-b54f-ce35d5fe5178">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Event Notification</text>
+          <text>Details: Don't miss the upcoming tech event on June 13th 1.30 pm. Details and registration inside. Attached file: https://example.com/presentation.pptx</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Open" arguments="action=open" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7234f89a-2b1c-4d5e-9f8g-h1i2j3k4l5m6" source_app="WhatsApp" timestamp="2025-06-09T14:22:17">
+    <toast launch="app://whatsapp/chat/project-team">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Project Update</text>
+          <text>Sarah: Final designs uploaded! Check them out before tomorrow's meeting. File: https://drive.google.com/file/d/1a2b3c4d5e6f7g8h9i0j</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+        <action content="View" arguments="action=view" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="9a8b7c6d-5e4f-3g2h-1i0j-k9l8m7n6o5p4" source_app="Discord" timestamp="2025-06-09T19:30:45">
+    <toast launch="app://discord/channel/gaming-squad">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Gaming Session</text>
+          <text>Alex: Game night this Friday 8 PM! New tournament mode is live. Who's in?</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 10th, 2025 -->
+  <notification id="1q2w3e4r-5t6y-7u8i-9o0p-a1s2d3f4g5h6" source_app="Outlook" timestamp="2025-06-10T09:15:30">
+    <toast launch="app://outlook/calendar/meeting/quarterly-review">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting Reminder</text>
+          <text>Quarterly Review starts in 15 minutes. Conference Room B. Join: https://teams.microsoft.com/l/meetup-join/19%3ameeting_abc123</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join Meeting" arguments="action=join_meeting" activationType="foreground"/>
+        <action content="Dismiss" arguments="action=dismiss" activationType="background"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2z3x4c5v-6b7n-8m9q-0w1e-r2t3y4u5i6o7" source_app="YouTube" timestamp="2025-06-10T09:15:30">
+    <toast launch="app://youtube/video/dQw4w9WgXcQ">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>New Upload</text>
+          <text>TechReviewer just uploaded: "Top 10 Programming Languages in 2025" - Don't miss this comprehensive guide!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch Now" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3p4l5m6n-7b8v-9c0x-1z2a-s3d4f5g6h7j8" source_app="WhatsApp" timestamp="2025-06-10T16:42:12">
+    <toast launch="app://whatsapp/chat/family-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Family Gathering</text>
+          <text>Mom: Don't forget Dad's birthday party this Sunday! Bringing dessert. Location details: https://maps.google.com/location/123</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 11th, 2025 -->
+  <notification id="4k5j6h7g-8f9d-0s1a-2q3w-e4r5t6y7u8i9" source_app="Gmail" timestamp="2025-06-11T11:20:55">
+    <toast launch="app://gmail/detail/deadline-reminder">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Deadline Alert</text>
+          <text>Assignment submission due tomorrow at 11:59 PM. Requirements document: https://university.edu/docs/assignment-guidelines.pdf</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Open" arguments="action=open" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="5o6p7q8w-9e0r-1t2y-3u4i-o5p6a7s8d9f0" source_app="Twitch" timestamp="2025-06-11T20:00:00">
+    <toast launch="app://twitch/stream/gaming-streamer-pro">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Stream Starting</text>
+          <text>GamingStreamerPro is now live! Playing the new RPG everyone's talking about. Join the adventure!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 12th, 2025 -->
+  <notification id="6g7h8j9k-0l1z-2x3c-4v5b-n6m7q8w9e0r1" source_app="Discord" timestamp="2025-06-12T13:33:21">
+    <toast launch="app://discord/channel/study-group">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Study Session</text>
+          <text>Mike: Mathematics study group meeting tomorrow 3 PM in library. Bring calculators and chapter 12 notes!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Confirm" arguments="action=confirm" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7t8y9u0i-1o2p-3a4s-5d6f-g7h8j9k0l1m2" source_app="Outlook" timestamp="2025-06-12T13:33:21">
+    <toast launch="app://outlook/task/project-milestone">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Task Reminder</text>
+          <text>Project milestone review due in 2 days. Please complete your section and upload to shared drive.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="View Tasks" arguments="action=view_tasks" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="8n9b0v1c-2x3z-4a5s-6d7f-g8h9j0k1l2m3" source_app="WhatsApp" timestamp="2025-06-12T18:55:40">
+    <toast launch="app://whatsapp/chat/workout-buddies">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Workout Plan</text>
+          <text>Jenny: New workout routine shared! Let's crush those fitness goals. Schedule: https://calendar.google.com/workout-schedule</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="View" arguments="action=view" activationType="foreground"/>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 13th, 2025 -->
+  <notification id="9q4w5e6r-7t8y-9u0i-1o2p-a3s4d5f6g7h8" source_app="Gmail" timestamp="2025-06-13T08:00:15">
+    <toast launch="app://gmail/detail/meeting-update">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Meeting Update</text>
+          <text>Today's tech event has been moved to Conference Hall A. Join us: https://zoom.us/j/1234567890?pwd=abcdef123456</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="0j9k8l7m-6n5b-4v3c-2x1z-a0s9d8f7g6h5" source_app="YouTube" timestamp="2025-06-13T15:45:22">
+    <toast launch="app://youtube/video/educational-content">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Educational Content</text>
+          <text>LearnWithUs uploaded: "Advanced Data Structures Explained" - Perfect for your upcoming exam preparation!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+        <action content="Save" arguments="action=save" activationType="background"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 14th, 2025 -->
+  <notification id="1p2o3i4u-5y6t-7r8e-9w0q-a1s2d3f4g5h6" source_app="Twitch" timestamp="2025-06-14T10:30:00">
+    <toast launch="app://twitch/stream/creative-artist">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Art Stream</text>
+          <text>CreativeArtist is live! Digital painting tutorial session - learn professional techniques from a master artist.</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="2j7k8l9m-0n1b-2v3c-4x5z-a6s7d8f9g0h1" source_app="Discord" timestamp="2025-06-14T14:15:30">
+    <toast launch="app://discord/channel/book-club">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Book Club Discussion</text>
+          <text>Emma: This month's book discussion tomorrow! "The Innovation Mindset" - Chapter 5-8. Prepare your thoughts!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join Discussion" arguments="action=join" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="3k2l1m0n-9b8v-7c6x-5z4a-s3d2f1g0h9j8" source_app="WhatsApp" timestamp="2025-06-14T21:10:45">
+    <toast launch="app://whatsapp/chat/college-friends">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Reunion Planning</text>
+          <text>David: College reunion next month! Venue booked. RSVP and details: https://forms.google.com/reunion-rsvp-2025</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="RSVP" arguments="action=rsvp" activationType="foreground"/>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <!-- June 15th, 2025 -->
+  <notification id="4l5m6n7b-8v9c-0x1z-2a3s-d4f5g6h7j8k9" source_app="Outlook" timestamp="2025-06-15T07:30:00">
+    <toast launch="app://outlook/calendar/weekly-standup">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Weekly Standup</text>
+          <text>Team standup meeting in 30 minutes. Please prepare your weekly updates. Meeting link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_xyz789</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Join" arguments="action=join" activationType="foreground"/>
+        <action content="Prepare" arguments="action=prepare" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="5m6n7b8v-9c0x-1z2a-3s4d-f5g6h7j8k9l0" source_app="Gmail" timestamp="2025-06-15T12:00:00">
+    <toast launch="app://gmail/detail/birthday-greeting">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Birthday Wishes</text>
+          <text>Happy Birthday! Hope your special day is filled with joy and celebration. Best wishes from the entire team!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Reply" arguments="action=reply" activationType="foreground"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="6n7b8v9c-0x1z-2a3s-4d5f-g6h7j8k9l0m1" source_app="YouTube" timestamp="2025-06-15T16:20:10">
+    <toast launch="app://youtube/video/weekend-vlog">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Weekend Vlog</text>
+          <text>AdventureVlogger uploaded: "Epic Weekend Hiking Adventure" - Experience breathtaking mountain views and outdoor tips!</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="Watch" arguments="action=watch" activationType="foreground"/>
+        <action content="Subscribe" arguments="action=subscribe" activationType="background"/>
+      </actions>
+    </toast>
+  </notification>
+
+  <notification id="7b8v9c0x-1z2a-3s4d-5f6g-h7j8k9l0m1n2" source_app="WhatsApp" timestamp="2025-06-15T19:45:33">
+    <toast launch="app://whatsapp/chat/recipe-sharing">
+      <visual>
+        <binding template="ToastGeneric">
+          <text>Recipe Share</text>
+          <text>Maria: Amazing pasta recipe attached! Perfect for Sunday dinner. Full recipe with photos: https://drive.google.com/file/d/recipe-pasta-sunday</text>
+        </binding>
+      </visual>
+      <actions>
+        <action content="View Recipe" arguments="action=view" activationType="foreground"/>
+        <action content="Save" arguments="action=save" activationType="background"/>
+      </actions>
+    </toast>
+  </notification>
+
+</notifications>

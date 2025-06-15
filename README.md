@@ -108,7 +108,7 @@ NotifSync is a desktop application that synchronizes and manages notifications a
 1. Start the backend server (in one Command Prompt):
    ```bash
    cd backend
-   uvicorn main:app --reload --host 0.0.0.0 --port 8000
+   uvicorn main:app --reload --host 0.0.0.0 --port 8001
    ```
 
 2. In a new Command Prompt, start the frontend:
@@ -142,8 +142,8 @@ NotifSync is a desktop application that synchronizes and manages notifications a
    - Restart Command Prompt
    - Check system PATH variables
 
-5. **Port 8000 already in use**
-   - Find process using port: `netstat -ano | findstr :8000`
+5. **Port 8001 already in use**
+   - Find process using port: `netstat -ano | findstr :8001`
    - Kill process: `taskkill /PID <process_id> /F`
    - Or change port in `uvicorn` command
 
@@ -193,7 +193,7 @@ npm install
 ```bash
 # From the project root
 cd backend
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --reload --host 0.0.0.0 --port 8001
 ```
 
 2. **Start the Frontend Development Server**
@@ -384,7 +384,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Common Issues
 
 1. **Backend Connection Error**
-   - Ensure the backend server is running on port 8000
+   - Ensure the backend server is running on port 8001
    - Check if CORS is properly configured
    - Verify the API_BASE_URL in frontend code
 

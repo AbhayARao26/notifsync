@@ -13,7 +13,7 @@ function Trash({ theme = 'light', toggleTheme }) {
         const response = await fetch(`${API_BASE_URL}/events`);
         if (!response.ok) throw new Error('Failed to fetch events');
         const data = await response.json();
-        setDeletedEvents(data.filter(event => event.deleted));
+        setDeletedEvents(data.filter(event => event.deleted === 'true'));
       } catch (error) {
         setDeletedEvents([]);
       }

@@ -40,7 +40,8 @@ function Calendar({ theme = 'light', onDateSelect, selectedDate, events = [] }) 
       return (
         eventDate.getDate() === currentDate.getDate() &&
         eventDate.getMonth() === currentDate.getMonth() &&
-        eventDate.getFullYear() === currentDate.getFullYear()
+        eventDate.getFullYear() === currentDate.getFullYear() &&
+        event.deleted === 'false'  // Compare with string 'false'
       );
     });
   };

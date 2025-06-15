@@ -20,7 +20,7 @@ function Timeline({ eventTypeFilter = 'all', setEventTypeFilter, theme = 'light'
 
   // Parse events to extract start, end, and type
   const parsedEvents = events
-    .filter(event => !event.deleted)
+    .filter(event => event.deleted === 'false')  // Compare with string 'false'
     .map(event => {
       const startTime = new Date(event.date_time)
       const durationMin = parseDuration(event.duration)
@@ -29,7 +29,7 @@ function Timeline({ eventTypeFilter = 'all', setEventTypeFilter, theme = 'light'
         ...event,
         hour: startTime.getHours(),
         minute: startTime.getMinutes(),
-        duration: event.duration, // string
+        duration: event.duration,
         type: event.commitment_type,
         date: startTime.toDateString(),
         startTime,
